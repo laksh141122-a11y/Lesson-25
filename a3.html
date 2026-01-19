@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="fun1()">button</button>
+    <p id="result"></p>
+    <script>
+        function fun1(){
+            var num1 = 500;
+            var num2 = 50;
+            var r1 = eval("num1+num2") + "<br>";
+            var r2 = eval("num1-num2") + "<br>";
+            var res = r1 + r2;
+            document.getElementById("result").innerHTML = res;
+        }
+    </script>
+</body>
+</html>
